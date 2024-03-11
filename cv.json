@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Alonso Caballero",
+    "label": "Front End Developer con mas 10 años de experiencia, y conocimientos en UX/UI",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "g.alonso.ct@gmail.com",
+    "phone": "+52 5513 979212",
+    "url": "https://alonsoct.dev",
+    "summary": "Cuento con más de 10 años de experiencia en desarrollo de sitios web, tengo experiencia en uso de HTML5, CSS3, JavaScript, Bootstrap, ReactJS y TailwindCSS. Mi enfoque se centra en crear interfaces web intuitivas y atractivas, colaborando con equipos de UX para garantizar una óptima experiencia de usuario.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "08600",
+      "city": "CDMX",
+      "countryCode": "MX",
+      "region": "Iztacalco"
     },
     "profiles": [
       {
@@ -86,7 +86,9 @@
     "endDate": "2009-01-01",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+      "DB1101 - Basic SQL",
+      "UX Basics - Google",
+      "E-Commerce - UNAM"
     ]
   }],
   "awards": [{
@@ -95,7 +97,12 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
+  "courses": [{
+    "courseName": "E-Commerce",
+    "institution": "PROTECO - UNAM",
+    "date": "Nov - 2022"
+  }],
+  "certifications": [{
     "name": "Certificate",
     "date": "2021-11-07",
     "issuer": "Company",

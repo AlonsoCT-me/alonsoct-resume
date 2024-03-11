@@ -2,12 +2,14 @@
 import Section from "../Section.astro"
 
 import { education } from "@cv"
+import { courses } from "@cv"
+import { certifications } from "@cv";
 ---
 
 <Section title="Educación">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -33,6 +35,57 @@ import { education } from "@cv"
       })
     }
   </ul>
+</Section>
+<Section title="Certificados y Cursos">
+
+  <ul>
+    {
+      courses.map(({ courseName, institution, date}) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{courseName}</h3>
+                </div>
+
+                <small>{date}</small>
+              </header>
+
+              <footer>
+                <p>{institution}</p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
+    }
+    </ul>
+    <ul>
+      {
+        certifications.map(({ name, date, issuer, url}) => {
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{name}</h3>
+                  </div>
+
+                  <small>{date}</small>
+                </header>
+
+                <footer>
+                  <p>{issuer}</p>
+                  <p>{url}</p>
+                </footer>
+              </article>
+            </li>
+          )
+        })
+      }
+    </ul>
+
 </Section>
 
 <style>
