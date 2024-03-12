@@ -1,6 +1,5 @@
 ---
 import Section from "../Section.astro"
-import 'src/styles.scss';
 
 import { education } from "@cv"
 import { courses } from "@cv"
@@ -10,7 +9,7 @@ import { certifications } from "@cv";
 <Section title="Educación">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area}) => {
+      education.map(({ institution, startDate, endDate, area, studyType}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -28,7 +27,7 @@ import { certifications } from "@cv";
               </header>
 
               <footer>
-                <p>{area}</p>
+                <p><span>{studyType}</span> en {area}</p>
               </footer>
             </article>
           </li>

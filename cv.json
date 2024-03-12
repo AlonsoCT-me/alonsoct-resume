@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Alonso Caballero",
-    "label": "Front End Web Developer & UX/UI enthusiast",
+    "label": "Desarrollador web Front End con enfoque en UX/UI",
     "image": "/me.webp",
     "email": "g.alonso.ct@gmail.com",
     "phone": "+52 5513 979212",
     "url": "https://alonsoct.dev",
-    "summary": "Cuento con más de 10 años de experiencia en desarrollo de sitios web, tengo experiencia en uso de HTML5, CSS3, JavaScript, Bootstrap, ReactJS y TailwindCSS. Mi enfoque se centra en crear interfaces web intuitivas y atractivas, colaborando con equipos de UX para garantizar una óptima experiencia de usuario.",
+    "summary": "Cuento con más de 10 años de experiencia en desarrollo de sitios web y una amplia trayectoria en desarrollo Front-End/UI-UX y administración de proyectos, me destaco por mi habilidad para crear interfaces web intuitivas y atractivas. \n He trabajado con tecnologías como HTML5, CSS3, JavaScript, Bootstrap, ReactJS y TailwindCSS, colaborando estrechamente con equipos de UX para optimizar la experiencia del usuario en los productos desarrollados.",
     "location": {
       "address": "",
       "postalCode": "08600",
@@ -17,40 +17,37 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "alonsoct",
+        "url": "https://www.linkedin.com/in/alonsoct/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "alonsoct00",
+        "url": "https://github.com/alonsoct00"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
+      "name": "GAIA Design",
+      "position": "Lead Frontend Architect",
       "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
-      "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "startDate": "2019-03-15",
+      "endDate": "2024-03-01",
+      "type": "Remoto - Tiempo completo",
+      "summary": "En GAIA Design, inicié mi carrera desarrollando landing pages en Magento para campañas promocionales, gestionando su creación y actualización para optimizar la experiencia de usuario. Colaboré estrechamente con el equipo de UX, contribuyendo en el desarrollo del nuevo sitio web y en la transición a Magento 2. En equipo mejoramos los aspectos clave del sitio, como la página de inicio y el flujo de checkout, utilizando tecnologías como PHP, HTML5, CSS3, Bootstrap, JavaScript y jQuery. \n Posteriormente, asumí un rol en la transición hacia una arquitectura headless, utilizando nuevas tecnologías como React.js, NextJS, y TailwindCSS, entre otras. Mi trabajo incluyó el desarrollo de prototipos y componentes para facilitar una migración fluida a un sistema más escalable. Esta experiencia en GAIA Design me permitió avanzar profesionalmente, aportando significativamente a la evolución de su plataforma digital.",
       "highlights": [
-        "Started the company"
+        "Desarrollo de páginas web para promociones, y estrategias de e-mail marketing incrementando las compras en el sitio web.",
+        "Optimización del rendimiento en el sitio web, mejorando la experiencia del usuario durante su compra.",
+        "Migración de Magento a Headless mejorando la optimización y carga del sitio web."
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Inbox Marketing Solutions & Sales Ready Marketing",
+      "position": "Website Content Manager & Webflow Developer",
+      "startDate": "2020-06-01",
+      "endDate": "2023-03-01",
+      "summary": "Como experto en desarrollo web, he ampliado mis habilidades incorporando herramientas innovadoras como Webflow para la administración eficiente de sitios web. Con Webflow, puedo diseñar y desarrollar sitios web impresionantes y totalmente funcionales sin necesidad de escribir código manualmente.",
       "highlights": [
         "Started the company"
       ]
@@ -64,6 +61,15 @@
       "highlights": [
         "Started the company"
       ]
+    },
+    {
+      "name": "Freelance",
+      "position": "Desarrollador Web Front End",
+      "url": "https://ufoconsultingmx.com/",
+      "startDate": "2017",
+      "endDate": null,
+      "summary": "Como freelance en desarrollo web y maquetación HTML, me especializo en la creación de sitios web estáticos de alto impacto visual y funcionalidad. Mi enfoque se centra en utilizar tecnologías modernas como HTML5, CSS3 y jQuery para diseñar experiencias web intuitivas y atractivas, con un especial énfasis en la optimización de la experiencia del usuario (UX).",
+      "highlights": []
     }
   ],
   "volunteer": [{
@@ -78,18 +84,13 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL",
-      "UX Basics - Google",
-      "E-Commerce - UNAM"
-    ]
+    "institution": "Instituto Politécnico Nacional",
+    "url": "https://www.ipn.mx/",
+    "area": "Ciencias de la Informática",
+    "studyType": "Licenciatura",
+    "startDate": "2007-08-01",
+    "endDate": "2013-01-01",
+    "score": "4.0"
   }],
   "awards": [{
     "title": "Award",
