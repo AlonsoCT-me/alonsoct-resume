@@ -8,7 +8,7 @@ import { work } from "@cv"
   <ul id="work_list">
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url, type }) => {
+        ({ name, startDate, endDate, position, summary, highlights, url, type, logo }) => {
           const startYear = new Date(startDate).getFullYear()
           const endYear =
             endDate != null ? new Date(endDate).getFullYear() : "Actual"
@@ -21,10 +21,14 @@ import { work } from "@cv"
                   <div>
                     <h2>
                       <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
+                        <span class="work_item_image"><img src={logo} alt={name}></span>
+                        <p>
+                          {name}
+                          {position}
+                        </p>
                       </a>
                     </h2>
-                    <h5>{position}</h5>
+                    <h5></h5>
                   </div>
 
                   <div class="work-info">

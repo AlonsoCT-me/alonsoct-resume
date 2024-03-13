@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Alonso Caballero",
-    "label": "Desarrollador web Front End con enfoque en UX/UI",
+    "label": "Desarrollador Web Front End con enfoque en UX/UI",
     "image": "/me.webp",
     "email": "g.alonso.ct@gmail.com",
     "phone": "+52 5513 979212",
@@ -30,11 +30,12 @@
   "work": [
     {
       "name": "GAIA Design",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
+      "position": "Desarrollador Web Front End",
+      "url": "https://www.gaiadesign.com.mx/",
       "startDate": "2019-03-15",
       "endDate": "2024-03-01",
       "type": "Remoto - Tiempo completo",
+      "logo": "/public/gaia_design_logo.jpeg",
       "summary": "En GAIA Design, inicié mi carrera desarrollando landing pages en Magento para campañas promocionales, gestionando su creación y actualización para optimizar la experiencia de usuario. Colaboré estrechamente con el equipo de UX, contribuyendo en el desarrollo del nuevo sitio web y en la transición a Magento 2. En equipo mejoramos los aspectos clave del sitio, como la página de inicio y el flujo de checkout, utilizando tecnologías como PHP, HTML5, CSS3, Bootstrap, JavaScript y jQuery. \n Posteriormente, asumí un rol en la transición hacia una arquitectura headless, utilizando nuevas tecnologías como React.js, NextJS, y TailwindCSS, entre otras. Mi trabajo incluyó el desarrollo de prototipos y componentes para facilitar una migración fluida a un sistema más escalable. Esta experiencia en GAIA Design me permitió avanzar profesionalmente, aportando significativamente a la evolución de su plataforma digital.",
       "highlights": [
         "Desarrollo de páginas web para promociones, y estrategias de e-mail marketing incrementando las compras en el sitio web.",
@@ -43,24 +44,25 @@
       ]
     },
     {
-      "name": "Inbox Marketing Solutions & Sales Ready Marketing",
+      "name": "Sales Ready Marketing",
       "position": "Website Content Manager & Webflow Developer",
+      "url": "https://www.srm.mx/",
       "startDate": "2020-06-01",
       "endDate": "2023-03-01",
-      "summary": "Como experto en desarrollo web, he ampliado mis habilidades incorporando herramientas innovadoras como Webflow para la administración eficiente de sitios web. Con Webflow, puedo diseñar y desarrollar sitios web impresionantes y totalmente funcionales sin necesidad de escribir código manualmente.",
-      "highlights": [
-        "Started the company"
-      ]
+      "type": "Remoto - Contract",
+      "logo": "/public/salesreadymarketing_logo.jpeg",
+      "summary": "Como experto en desarrollo web, he ampliado mis habilidades incorporando herramientas innovadoras como Webflow para la administración eficiente de sitios web. Con Webflow, puedo diseñar y desarrollar sitios web impresionantes y totalmente funcionales.",
+      "highlights": []
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
+      "name": "Interjet",
+      "position": "Desarrollador Web Front End",
       "startDate": "2011-03-01",
       "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "type": "Tiempo completo",
+      "logo": "/public/interjet_air_lines_logo.jpeg",
+      "summary": "En mi rol como desarrollador front-end en el área de UX para Interjet, me dediqué a aplicar mis conocimientos en desarrollo web con el fin de enriquecer la experiencia digital de los usuarios. Haciendo uso de tecnologías avanzadas como HTML5, CSS3, JavaScript y Bootstrap 3, logré diseñar interfaces web receptivas y visualmente atractivas, centradas en mejorar la usabilidad y la interacción del usuario con el sitio web. Mi participación no solo se limitó al desarrollo técnico, sino que también abarcó la creación de soluciones creativas para campañas de E-mail marketing, utilizando herramientas como Oracle Responsys para desarrollar mailings efectivos que lograron captar la atención y fomentar una mayor interacción de nuestra audiencia.",
+      "highlights": []
     },
     {
       "name": "Freelance",
