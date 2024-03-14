@@ -113,6 +113,16 @@ h2 {
         time {
             text-align: right;
         }
+        #work_list{
+            article {
+                a {
+                    align-items: flex-start;
+                }
+            }
+            .work-info{
+display: none;
+            }
+        }
     }
 }
 
@@ -157,6 +167,14 @@ h2 {
         time {
             text-align: right;
         }
+        .header_school {
+            align-items: flex-start;
+        }
+        article h3 {
+            font-weight: 600;
+            color: #101010;
+            font-size: 16px;
+        }
     }
 }
 
@@ -179,6 +197,7 @@ h2 {
                         font-size: 0.85rem;
                         min-width: 102px;
                         float: right;
+                        text-align: right;
                     }
                 }
 

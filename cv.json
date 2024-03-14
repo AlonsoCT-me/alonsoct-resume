@@ -116,7 +116,7 @@
     "endDate": "2013-01-01",
     "score": "4.0",
     "logo": "/public/ipn.jpeg"
-  }],g
+  }],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
@@ -195,7 +195,7 @@
     },
     {
       "name": "React",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
@@ -204,7 +204,7 @@
       "name": "TypeScript",
       "level": "Básico",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript"
       ]
     },
     {
@@ -232,25 +232,25 @@
       "name": "Jira",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Gestión de proyectos"
       ]
     },
     {
       "name": "Figma",
-      "level": "Avanzado",
+      "level": "Básico",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "UX", "UI"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés",
+      "fluency": "Técnico"
     }
   ],
   "interests": [{
@@ -266,68 +266,102 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "FONIMA",
+      "isActive": false,
+      "description": "Sitio web para el festival FONIMA",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "HTML5, CSS3, JavaScript, Bootstrap"
       ],
-      "url": "https://mars.codes"
+      "url": "https://alonsoct00.github.io/fonima-web/"
     },
     {
-      "name": "AdventJS",
+      "name": "WNDH",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Sitio web en construcción",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://alonsoct00.github.io/wndh/oldindex.html"
     },
     {
-      "name": "Codember",
+      "name": "Casiopea",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Sitio web realizado para una productora de animación y diseño.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://codember.dev"
+      "url": "https://casiopea.mx/",
+      "github": "https://github.com/alonsoct00/Casiopea-website"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "Calculadora BMI",
+      "isActive": false,
+      "description": "Calculadora para médico nutricionista integrado a su WordPress",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "https://alonsoct00.github.io/BMI-calculator-dietamx/bmi-calc.html",
+      "github": "https://github.com/alonsoct00/BMI-calculator-dietamx/blob/main/bmi-calc.html"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Additional HR",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Sitio web realizado para una consultora de HR de USA",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "100% gratuito"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://alonsoct00.github.io/websitehr/"
     },
     {
-      "name": "miduConf",
+      "name": "IMPSA",
       "isActive": true,
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "description": "Sitio web realizado con Webflow",
       "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
+        "Webflow"
       ],
-      "url": "https://miduconf.com",
-      "webflow": "#"
+      "url": "https://www.impsa.com.mx/index",
+      "webflow": "https://www.impsa.com.mx/index"
+    },
+    {
+      "name": "Bennets",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.limpiezabennetts.com.mx/",
+      "webflow": "https://www.limpiezabennetts.com.mx/"
+    },
+    {
+      "name": "Graff",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.graff.mx/",
+      "webflow": "https://www.graff.mx/"
+    },
+    {
+      "name": "SRM",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.srm.mx/",
+      "webflow": "https://www.srm.mx/"
+    }
+    ,
+    {
+      "name": "Compucentro",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.compucentro.com.mx/",
+      "webflow": "https://www.compucentro.com.mx/"
     }
   ]
 }
