@@ -19,18 +19,14 @@ import { work } from "@cv"
               <article>
                 <header>
                   <div>
-                    <h2>
                       <a href={url} title={`Ver ${name}`} target="_blank">
                         <span class="work_item_image"><img src={logo} alt={name}></span>
-                        <p>
-                          {name}
-                          {position}
-                        </p>
+                        <h2>
+                          {name} <br/>
+                          <span>{position}</span>
+                        </h2>
                       </a>
-                    </h2>
-                    <h5></h5>
                   </div>
-
                   <div class="work-info">
                     <time>{years}</time>
                     <p>{type}</p>
@@ -38,11 +34,13 @@ import { work } from "@cv"
                 </header>
                 <footer>
                   <p>{summary}</p>
+                  {highlights && (
                   <ul id="work_highlights">
                     {highlights.map((highlight, index) => (
                       <li key={index}>{highlight}</li>
                     ))}
                   </ul>
+                  )}
                 </footer>
               </article>
             </li>
