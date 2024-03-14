@@ -1,69 +1,99 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Alonso Caballero",
+    "label": "Desarrollador Web Front End con enfoque en UX/UI",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "g.alonso.ct@gmail.com",
+    "phone": "+52 5513 979212",
+    "url": "https://alonsoct.dev",
+    "summary": "Cuento con más de 10 años de experiencia en desarrollo de sitios web y una amplia trayectoria en desarrollo Front-End/UI-UX y administración de proyectos, me destaco por mi habilidad para crear interfaces web intuitivas y atractivas. \n He trabajado con tecnologías como HTML5, CSS3, JavaScript, Bootstrap, ReactJS y TailwindCSS, colaborando estrechamente con equipos de UX para optimizar la experiencia del usuario en los productos desarrollados.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "08600",
+      "city": "CDMX",
+      "countryCode": "MX",
+      "region": "Iztacalco"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
-      },
-      {
-        "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "alonsoct",
+        "url": "https://www.linkedin.com/in/alonsoct/"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "alonsoct00",
+        "url": "https://github.com/alonsoct00"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "GAIA Design",
+      "position": "Desarrollador Web Front End",
+      "url": "https://www.gaiadesign.com.mx/",
+      "startDate": "2019-03-15",
+      "endDate": "2024-03-01",
+      "type": "Remoto - Tiempo completo",
+      "logo": "/public/gaia_design_logo.jpeg",
+      "summary": "En GAIA Design, inicié mi carrera desarrollando landing pages en Magento para campañas promocionales, gestionando su creación y actualización para optimizar la experiencia de usuario. Colaboré estrechamente con el equipo de UX, contribuyendo en el desarrollo del nuevo sitio web y en la transición a Magento 2. En equipo mejoramos los aspectos clave del sitio, como la página de inicio y el flujo de checkout, utilizando tecnologías como PHP, HTML5, CSS3, Bootstrap, JavaScript y jQuery. \n Posteriormente, asumí un rol en la transición hacia una arquitectura headless, utilizando nuevas tecnologías como React.js, NextJS, y TailwindCSS, entre otras. Mi trabajo incluyó el desarrollo de prototipos y componentes para facilitar una migración fluida a un sistema más escalable. Esta experiencia en GAIA Design me permitió avanzar profesionalmente, aportando significativamente a la evolución de su plataforma digital.",
+      "highlights": [
+        "Desarrollo de páginas web para promociones, y estrategias de e-mail marketing incrementando las compras en el sitio web.",
+        "Optimización del rendimiento en el sitio web, mejorando la experiencia del usuario durante su compra.",
+        "Migración de Magento a Headless mejorando la optimización y carga del sitio web."
+      ]
+    },
+    {
+      "name": "Sales Ready Marketing",
+      "position": "Website Content Manager & Webflow Developer",
+      "url": "https://www.srm.mx/",
+      "startDate": "2020-06-01",
+      "endDate": "2023-03-01",
+      "type": "Remoto - Contract",
+      "logo": "/public/salesreadymarketing_logo.jpeg",
+      "summary": "Como experto en desarrollo web, he ampliado mis habilidades incorporando herramientas innovadoras como Webflow para la administración eficiente de sitios web. Con Webflow, puedo diseñar y desarrollar sitios web impresionantes y totalmente funcionales.",
+      "highlights": []
+    },
+    {
+      "name": "Interjet",
+      "position": "Desarrollador Web Front End",
+      "startDate": "2016-01-01",
+      "endDate": "2019-04-01",
+      "type": "Tiempo completo",
+      "logo": "/public/interjet_air_lines_logo.jpeg",
+      "summary": "En mi rol como desarrollador front-end en el área de UX para Interjet, me dediqué a aplicar mis conocimientos en desarrollo web con el fin de enriquecer la experiencia digital de los usuarios. Haciendo uso de tecnologías avanzadas como HTML5, CSS3, JavaScript y Bootstrap 3, logré diseñar interfaces web receptivas y visualmente atractivas, centradas en mejorar la usabilidad y la interacción del usuario con el sitio web. Mi participación no solo se limitó al desarrollo técnico, sino que también abarcó la creación de soluciones creativas para campañas de E-mail marketing, utilizando herramientas como Oracle Responsys para desarrollar mailings efectivos que lograron captar la atención y fomentar una mayor interacción de nuestra audiencia.",
+      "highlights": []
+    },
+    {
+      "name": "Liverpool",
+      "position": "Desarrollador Web Front End",
+      "startDate": "2013-10-01",
+      "endDate": "2016-07-01",
+      "type": "Tiempo completo",
+      "logo": "/public/liver.jpeg",
+      "summary": "En Liverpool, jugué un rol clave en el fortalecimiento de su plataforma digital, especialmente a través de la creación de micrositios y la migración a Oracle BCC & ATG Web Commerce, mejorando la gestión de la tienda en línea. Participé en la mejora del proceso de checkout, colaborando con equipos internacionales para implementar eficientemente nuevas soluciones. Desarrollé landing pages para marcas destacadas, manteniendo y optimizando la tienda en línea. Aporté a la implementación de prácticas UX/UI para enriquecer la experiencia del usuario y contribuí al lanzamiento de mult-sitios (Williams-Sonoma, Pottery Barn, West-Elm), ampliando mis competencias técnicas.",
+      "highlights": []
+    },
+    {
+      "name": "CTIN (Centro de Tecnología e innovación Telmex)",
+      "position": "Desarrollador Web Front End",
+      "startDate": "2011-11-01",
+      "endDate": "2013-07-01",
+      "type": "Becario",
+      "logo": "/public/ctin.jpeg",
+      "summary": "Durante mi tiempo como becario en CTIN, tuve la oportunidad de sumergirme en varios aspectos del mundo digital. Mi enfoque principal fue el desarrollo web, donde trabajé con tecnologías clave como HTML5, CSS3, JavaScript y jQuery para crear sitios web interactivos y visualmente atractivos. Además, tuve el privilegio de impartir talleres de capacitación en Aldea Digital TELMEX, donde compartí mis conocimientos y experiencias con otros entusiastas del mundo digital, ayudándolos a desarrollar sus habilidades y explorar nuevas oportunidades en el ámbito tecnológico. Mi tiempo como becario en CTIN fue una experiencia enriquecedora que me permitió crecer tanto personal como profesionalmente, adquiriendo habilidades valiosas y ampliando mi conocimiento en el mundo de la tecnología y la innovación digital.",
+      "highlights": []
+    },
+    {
+      "name": "Freelance",
+      "position": "Desarrollador Web Front End",
+      "url": "https://ufoconsultingmx.com/",
+      "startDate": "2008",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
-      "highlights": [
-        "Started the company"
-      ]
+      "type": "Freelance",
+      "logo": "/public/alonsoct_me_logo.jpeg",
+      "summary": "Como freelance en desarrollo web y maquetación HTML, me especializo en la creación de sitios web estáticos de alto impacto visual y funcionalidad. Mi enfoque se centra en utilizar tecnologías como HTML5, CSS3, Bootstrap y JavaScript frameworks para diseñar experiencias web intuitivas y atractivas. He adquirido experiencia en el uso de sistemas de gestión de contenidos (CMS) como WordPress y Joomla, lo que me permitió crear y mantener sitios web dinámicos y fáciles de actualizar mis clientes. Mi enfoque versátil me permite adaptarme a las necesidades específicas de cada proyecto y cliente, ofreciendo soluciones personalizadas y efectivas.",
+      "highlights": []
     }
   ],
   "volunteer": [{
@@ -78,16 +108,14 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
+    "institution": "Instituto Politécnico Nacional - UPIICSA",
+    "url": "https://www.ipn.mx/",
+    "area": "Ciencias de la Informática",
+    "studyType": "Licenciatura",
+    "startDate": "2007-08-01",
+    "endDate": "2013-01-01",
     "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+    "logo": "/public/ipn.jpeg"
   }],
   "awards": [{
     "title": "Award",
@@ -95,11 +123,39 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
+  "courses": [
+  {
+    "courseName": "E-Commerce",
+    "institution": "PROTECO - UNAM",
+    "date": "2022",
+    "url": "/public/docs/ecommerce-proteco-unam.jpeg"
+  },
+  {
+    "courseName": "E-Commerce",
+    "institution": "Google",
+    "date": "2020",
+    "url": "/public/docs/certificado-e-commerce.pdf"
+  },
+  {
+    "courseName": "Desarrollo Web",
+    "institution": "Google",
+    "date": "2018",
+    "url": "/public/docs/desarrollo_web_google.pdf"
+  }],
+  "certifications": [
+  {
+    "name": "UX Diseño de productos y servicios",
+    "date": "2021",
+    "issuer": "UNAM",
+    "license": "DGTIC - 7697",
+    "url": "https://sigeco.cuaed.unam.mx/valida.php"
+  },
+  {
+    "name": "Diseño de Experiencia de Usuario",
+    "date": "2024",
+    "issuer": "Google",
+    "license": "En proceso...",
+    "url": "#"
   }],
   "publications": [{
     "name": "Publication",
@@ -125,35 +181,35 @@
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
       ]
     },
     {
-      "name": "TypeScript",
-      "level": "Avanzado",
+      "name": "React",
+      "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
+      "name": "TypeScript",
+      "level": "Básico",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript"
       ]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
+      "level": "Básico",
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
       ]
@@ -173,28 +229,28 @@
       ]
     },
     {
-      "name": "Next.js",
+      "name": "Jira",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        "Gestión de proyectos"
       ]
     },
     {
-      "name": "React",
-      "level": "Avanzado",
+      "name": "Figma",
+      "level": "Básico",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "UX", "UI"
       ]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés",
+      "fluency": "Técnico"
     }
   ],
   "interests": [{
@@ -210,66 +266,102 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "name": "FONIMA",
+      "isActive": false,
+      "description": "Sitio web para el festival FONIMA",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "HTML5, CSS3, JavaScript, Bootstrap"
       ],
-      "url": "https://mars.codes"
+      "url": "https://alonsoct00.github.io/fonima-web/"
     },
     {
-      "name": "AdventJS",
+      "name": "WNDH",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Sitio web en construcción",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://adventjs.dev"
+      "url": "https://alonsoct00.github.io/wndh/oldindex.html"
     },
     {
-      "name": "Codember",
+      "name": "Casiopea",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Sitio web realizado para una productora de animación y diseño.",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://codember.dev"
+      "url": "https://casiopea.mx/",
+      "github": "https://github.com/alonsoct00/Casiopea-website"
     },
     {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "name": "Calculadora BMI",
+      "isActive": false,
+      "description": "Calculadora para médico nutricionista integrado a su WordPress",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "HTML5, CSS3, JavaScript"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "url": "https://alonsoct00.github.io/BMI-calculator-dietamx/bmi-calc.html",
+      "github": "https://github.com/alonsoct00/BMI-calculator-dietamx/blob/main/bmi-calc.html"
     },
     {
-      "name": "Pruebas Técnicas",
+      "name": "Additional HR",
       "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
+      "description": "Sitio web realizado para una consultora de HR de USA",
       "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
+        "100% gratuito"
       ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "https://alonsoct00.github.io/websitehr/"
     },
     {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
+      "name": "IMPSA",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
       "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
+        "Webflow"
       ],
-      "url": "https://miduconf.com"
+      "url": "https://www.impsa.com.mx/index",
+      "webflow": "https://www.impsa.com.mx/index"
+    },
+    {
+      "name": "Bennets",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.limpiezabennetts.com.mx/",
+      "webflow": "https://www.limpiezabennetts.com.mx/"
+    },
+    {
+      "name": "Graff",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.graff.mx/",
+      "webflow": "https://www.graff.mx/"
+    },
+    {
+      "name": "SRM",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.srm.mx/",
+      "webflow": "https://www.srm.mx/"
+    }
+    ,
+    {
+      "name": "Compucentro",
+      "isActive": true,
+      "description": "Sitio web realizado con Webflow",
+      "highlights": [
+        "Webflow"
+      ],
+      "url": "https://www.compucentro.com.mx/",
+      "webflow": "https://www.compucentro.com.mx/"
     }
   ]
 }

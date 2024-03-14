@@ -2,30 +2,37 @@
 import Section from "../Section.astro"
 
 import { education } from "@cv"
+import { courses } from "@cv"
+import { certifications } from "@cv";
 ---
 
-<Section title="Educación">
-  <ul>
+<Section title="Educación" id="education" class="educaction">
+  <ul id="institution_list">
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, startDate, endDate, area, studyType, logo}) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
         const years = `${startYear} - ${endYear}`
 
         return (
-          <li>
+          <li class="institution-item">
             <article>
               <header>
+                <div class="header_school">
+                  <span class="school_item_image"><img src={logo} alt={institution}></span>
                 <div>
                   <h3>{institution}</h3>
+                  <p><span>{studyType}</span> en {area}</p>
+                </div>
+
                 </div>
 
                 <time>{years}</time>
               </header>
 
               <footer>
-                <p>{area}</p>
+
               </footer>
             </article>
           </li>
@@ -34,35 +41,45 @@ import { education } from "@cv"
     }
   </ul>
 </Section>
-
-<style>
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-  }
-
-  @media (width <= 700px) {
-    time {
-      text-align: right;
+<Section title="Certificados y Cursos" id="courses" class="educaction">
+  <ul id="courses_list">
+    {
+      courses.map(({ courseName, institution, date, url}) => {
+        return (
+          <li class="course_item">
+            <article>
+              <header>
+                <h3>{courseName}</h3>
+                <time>{date}</time>
+              </header>
+              <footer>
+                <p><a href={url} title={courseName} target="_blank">{institution}</a></p>
+              </footer>
+            </article>
+          </li>
+        )
+      })
     }
-  }
-</style>
+    </ul>
+    <ul id="certifications_list">
+      {
+        certifications.map(({ name, date, issuer, license, url}) => {
+          return (
+            <li class="certification_item">
+              <article>
+                <header>
+                  <h3>{name}</h3>
+                  <time>{date}</time>
+                </header>
+
+                <footer>
+                  <p><a href={url} title="name" target="_blank">{issuer}</a> <span>{license}</span></p>
+                </footer>
+              </article>
+            </li>
+          )
+        })
+      }
+    </ul>
+
+</Section>

@@ -1,5 +1,6 @@
 ---
 import { basics } from "@cv"
+import 'src/styles.scss';
 
 interface Props {
   title: string
@@ -8,6 +9,8 @@ interface Props {
 const { title } = Astro.props
 
 const { image, summary, url } = basics
+
+
 ---
 
 <!doctype html>
